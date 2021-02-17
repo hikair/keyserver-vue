@@ -9,7 +9,7 @@ import { Form, FormItem, Input, Message, Container, Header,Aside, Main,
 
 import axios from 'axios'
 // 配置请求的根路径
-axios.defaults.baseURL = 'http://47.103.44.108/:9001/'
+axios.defaults.baseURL = 'http://47.103.44.108:9001/'
 Vue.prototype.$axios = axios
 Vue.config.productionTip = false
 import qs from 'qs'
